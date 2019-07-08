@@ -1,6 +1,6 @@
 a=int(input())
-sum1=0
+sum=0
 while(a>0):
-  sum1=sum1+a
+  sum=sum+a
   a=a-1
-print(sum1)
+print(sum)
