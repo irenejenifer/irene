@@ -1,9 +1,9 @@
 x=input()
 if(x.isdigit()):
-    print('yes')
+    print('Yes')
 else:
     try:
         float(x)
-        print ('yes')
+        print ('Yes')
     except:
-        print('no')
+        print('No')
